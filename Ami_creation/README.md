@@ -15,6 +15,7 @@ Step 2 ==>Need to perform terraform init so that it will download the module aws
             ```
             
 Step 3 ==>Need to perform terraform plan so that terrafrom will read .tf scripts and show the plan what resources you are going to use
+           
             ```
             terraform plan 
             ```
