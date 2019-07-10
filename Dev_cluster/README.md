@@ -1,0 +1,1 @@
+Dev Cluster with one master and two worker node, for creating k8s cluster there is minimum 2vCPU rquired so please choose t2.medium machine type

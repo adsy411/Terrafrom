@@ -31,3 +31,4 @@ sudo apt-get update -y
 sudo apt-get install -y docker-ce kubelet kubeadm kubectl
 sudo systemctl enable docker.service
 sudo apt-mark hold kubelet kubeadm kubectl
+sudo systemctl net.bridge.bridge-nf-call-iptables=1

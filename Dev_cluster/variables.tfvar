@@ -1,0 +1,33 @@
+##Project is on north verginia region
+variable "region" {
+  value = "us-east-1"
+}
+variable "key" {
+  value = "dev_terraform"
+}
+
+##Vpc cidr range
+variable "cidr" {
+  value = "10.0.0.0/16"
+}
+variable "pub_sub_cidr" {
+  value = "10.0.0.0/24"
+}
+variable "priv_sub_cidr" {
+  valuse = "10.0.10.0/24"
+}
+
+
+##Names we follow to our project
+variable "vpc_name" {
+  value = "dev_vpc"
+}
+variable "vpc_igw" {
+  value = "dev_igw"
+}
+variable "public_rt" {
+  value = "pub_rt"
+}
+variable "private_rt" {
+  value = "priv_rt"
+}
